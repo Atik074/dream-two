@@ -250,6 +250,20 @@
     margin-top: 64px;
     flex-direction: column;
 }
+.experience-title{
+   text-decoration: none;
+
+}
+.architects-btn{
+    padding: 5px 30px;
+    font-size: 22px;
+    margin-top: 17px;
+   
+}
+.architects-btn span{
+    font-size: 17px;
+
+}
 
 
 
