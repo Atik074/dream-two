@@ -71,7 +71,7 @@
     background: rgba(255, 144, 14, 1);
     margin-bottom: 36px; 
 }
-.banner-img img ,.meeting-img img , .architects-img img{
+.banner-img img , .architects-img img{
     width: 100%;
     height: 100%;
     border-radius:10px;
@@ -82,24 +82,24 @@
 /* meeting-section start */
 .meeting-section{
     display: flex;
-    padding-left: 200px;
+    align-items: center;
+    padding: 50px 130px;
     margin-top: 100px;
 }
+
 .meeting-groups-images{
     display: grid;
-    gap: 20px;
+    gap:20px;
     grid-template-columns:repeat(2,1fr);
   
 }
-.meeting-img { 
-    width:250px;
-   
-}
+
+
 
 
 .meeting-details{
-    margin: 0px 50px;
-    margin-top: 165px;
+   margin-left: 50px;
+    margin-top: 100px;
 }
 .meeting-title{
    font-weight: 700;
@@ -115,7 +115,6 @@
 
 .meeting-description{
     margin-top: 20px;
-    padding-right: 4px;
     margin-bottom: 25px;
      font-size: 19px;
     color: #727272;
@@ -126,9 +125,11 @@
 /* experience-section  start */
 .experience-content{
     display: flex;
+    align-items: center;
     gap: 30px;
-    padding:40px 170px;
-    margin-top: 100px;
+    padding:40px 130px;
+    margin-top: 70px;
+  
 }
 .experience-title{
     border-left:3px solid #FF900E;
@@ -156,11 +157,12 @@
 .architects{
     width: 100%;
 }
+
 .architects-btn{
     background: #FF900E;
     border-radius: 8px;
     color: white;
-    padding: 14px 22px;
+    padding: 10px 22px;
     font-size: 31px;
     border: none;
     margin-top: -40px;
@@ -223,18 +225,21 @@
     margin-top: 50px;
 
 }
+
 .meeting-groups-images{
-    gap: 30px 0px;
+    gap:30px 0px; 
     grid-template-columns:repeat(1,1fr);
-   justify-items: center; 
+    justify-items: center; 
 }
-.meeting-img { 
-    width:175px;  
-}
+
+.meeting-img img{ 
+    width:80%;  
+} 
 
 .meeting-details{
     margin-top: 50px;
-    padding: 0px;
+    padding: 0px; 
+    
 }
 .meeting-title{
    font-size: 25px;
@@ -254,8 +259,13 @@
    text-decoration: none;
 
 }
+
+.architects-img img{
+    width:60%;
+}
+
 .architects-btn{
-    padding: 5px 30px;
+    padding: 5px 25px;
     font-size: 22px;
     margin-top: 17px;
    
