@@ -174,11 +174,85 @@
 }
 /* experience-section end */
 
+/* work-section start */
+.work-section{
+    padding:40px 130px;
+    margin-top: 70px;
+    
+}
+.work-description {
+    width: 50%;
+}
+.work-content{
+    display: flex;
+    gap: 35px;
+    justify-content: space-between;
+    padding: 40px 50px;
+   
+}
+.work-content-box{
+   text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 20px;
+    width: 50%;
+   
+}
+.work-content-box img{
+    width: 50%;
+   
+}
+.box-digit {
+    font-weight: 700;
+    font-size: 35px;
+   
+}
+.box-description{
+   font-size:19px;
+    color: #727272;
+    margin: 3px 0px;
+
+}
+/* work-section end */
+/*  ----------- */
+.sponspors-section{
+    padding:40px 130px;
+}
+.sponspor-documents{
+    text-align: center;
+}
+
+.sponspor-description {
+    padding: 0px 222px;
+}
+
+.sponspors-content{
+    display: flex;
+    gap: 35px;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+/* -----sponspors section end--------- */
+
+/* footer section start */
+.footer-section{
+    padding:40px 130px;
+
+}
+.footer-description{
+    text-align: center;
+    color: #424242;
+    background: #FFF4E7;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 17px 0px;
+}
+/* footer section end  */
+
 
 /* responive part */
 @media only screen and (max-width:576px) {
 .header-container{
-     display: flex;
      flex-direction: column;  
     padding: 20px 50px;
    background: rgba(255, 144, 14, 0.1);
@@ -221,7 +295,7 @@
 /* meeting part responsive */
 .meeting-section{
    flex-direction: column;
-    padding: 0px;
+    padding:0px;
     margin-top: 50px;
 
 }
@@ -275,8 +349,42 @@
     font-size: 17px;
 
 }
+/* experience section responsive end */
+/* work section responsive start */
+.work-section{
+    flex-direction: column;  
+    padding:10px 28px;
+    margin-top: 50px;
+
+}
+
+.work-title{
+    text-decoration: none;
+    margin: 10px 0px;
+}
+.work-description{
+   margin-bottom: 30px;
+    width: 100%;
+   
+}
+
+.work-content{
+    flex-direction: column;
+    padding: 0;
+    gap:25px;
+    align-content: center;
+    flex-wrap: wrap;
+   
+}
+
+/* work section responsive end */
 
 
 
 
+}
+
+
+.hide{
+    display: none;
 }
