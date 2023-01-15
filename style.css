@@ -355,7 +355,6 @@
     flex-direction: column;  
     padding:10px 28px;
     margin-top: 50px;
-
 }
 
 .work-title{
@@ -378,13 +377,30 @@
 }
 
 /* work section responsive end */
-
-
-
+/* sponspors responsive start */
+.sponspors-section{
+    padding:10px 28px;
+    margin-top: 50px;
+}
+.sponspors-content{
+    flex-direction: column;
+    padding: 0;
+    gap:25px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.sponspors-img{
+    margin-top: 15px;
+}
+/* sponspor responsive end */
+/* footer responsive start */
+.footer-section{
+    padding: 10px;
+}
+.footer-description{
+    padding: 5px;
 
 }
-
-
-.hide{
-    display: none;
+/* footer responsive end */
 }
+
